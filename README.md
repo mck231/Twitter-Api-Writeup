@@ -1,6 +1,6 @@
 # Twitter API v2 Node.js Example
 
-This example demonstrates how to use the Twitter API v2 with Node.js. Follow the steps below to set up your environment and execute the code.
+This example demonstrates how to use the Twitter API v2 with Node.js to access the "users/me" endpoint. Follow the steps below to set up your environment and execute the code.
 
 ## Prerequisites
 
@@ -46,4 +46,20 @@ Note: If you choose to copy the `package.json` file, make sure you have copied t
 4. Follow the prompts to authorize the application and enter the provided PIN.
 
 After successful execution, you should see the requested data printed to the console.
+
+## Output Data
+
+The data returned by the endpoint should look similar to the following:
+```yaml
+{
+   data: 
+      {
+         id: '1649424085984657413',
+         name: 'marco cabrera',
+         username: 'marcabrDEV'
+      }
+}
+```
+
+This data includes the user's ID, name, and username from their Twitter profile.
 
